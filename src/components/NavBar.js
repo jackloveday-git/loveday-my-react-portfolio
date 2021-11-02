@@ -25,8 +25,8 @@ function NavBar() {
             <nav className="navbar">
                 <div className="nav-container">
                     <NavLink exact to="/" className="nav-logo">
-                        Jack Loveday
-                        <i className="fas fa-code"></i>
+                        Jack Loveday 
+                        <i className="fab fa-react"></i>
                     </NavLink>
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -37,9 +37,7 @@ function NavBar() {
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
-                            >
-                                Home
-                            </NavLink>
+                            >Home</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink
@@ -48,9 +46,7 @@ function NavBar() {
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
-                            >
-                                Portfolio
-                            </NavLink>
+                            >Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink
@@ -59,9 +55,7 @@ function NavBar() {
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
-                            >
-                                Resume
-                            </NavLink>
+                            >Resume</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink
@@ -70,9 +64,7 @@ function NavBar() {
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
-                            >
-                                Contact Us
-                            </NavLink>
+                            >Contact</NavLink>
                         </li>
                     </ul>
                     <div className="nav-icon" onClick={handleClick}>
