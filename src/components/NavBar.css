@@ -1,0 +1,131 @@
+/* Navbar css by Jack Loveday */
+
+/* Main colours and style */
+.navbar {
+    align-items: center;
+    background-color: #1f5156;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+/* Container styling */
+.nav-container {
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo styling */
+.nav-logo {
+    color: #f5b921;
+    text-decoration: none;
+    font-size: 2rem;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+/* Menu styling */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+/* Page link styling */
+.nav-links {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+}
+
+/* Font awesome code style */
+.fa-code {
+    margin-left: 1rem;
+}
+
+/* Navbar item styling */
+.nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+}
+
+.nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+/* Button hover styling */
+.nav-item:hover:after {
+    width: 100%;
+    background: #ffdd40;
+}
+
+/* Current page styling */
+.nav-item .active {
+    color: #ffdd40;
+    border: 1px solid #ffdd40;
+}
+
+.nav-icon {
+    display: none;
+}
+
+/* Media settings */
+@media screen and (max-width: 960px) {
+    .nav-menu {
+        top: 80px;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1pxsolid #fff;
+        position: absolute;
+    }
+
+    .nav-menu.active {
+        background: #1f5156;
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+    .nav-item .active {
+        color: #ffdd40;
+        border: none;
+    }
+    .nav-links {
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #ffdd40;
+    }
+}
