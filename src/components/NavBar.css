@@ -3,7 +3,7 @@
 /* Main colours and style */
 .navbar {
     align-items: center;
-    background-color: #1f5156;
+    background-color: #000000;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
 
 /* Logo styling */
 .nav-logo {
-    color: #f5b921;
+    color: #ffae00;
     text-decoration: none;
     font-size: 2rem;
     align-items: center;
@@ -74,13 +74,13 @@
 /* Button hover styling */
 .nav-item:hover:after {
     width: 100%;
-    background: #ffdd40;
+    background: #ff0000;
 }
 
 /* Current page styling */
 .nav-item .active {
-    color: #ffdd40;
-    border: 1px solid #ffdd40;
+    color: #ff0000;
+    border: 1px solid #ff0000;
 }
 
 .nav-icon {
@@ -109,7 +109,7 @@
         z-index: 1;
     }
     .nav-item .active {
-        color: #ffdd40;
+        color: #ff0000;
         border: none;
     }
     .nav-links {
@@ -126,6 +126,6 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #ffdd40;
+        color: #ff0000;
     }
 }

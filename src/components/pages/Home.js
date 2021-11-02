@@ -7,7 +7,7 @@ import React from "react";
 export const Home = () => {
     return (
         <div>
-            <h1>Enter Home Data here.</h1>
+            <h1>Info about me!</h1>
         </div>
     );
 };
