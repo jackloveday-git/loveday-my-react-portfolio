@@ -9,7 +9,7 @@ import self_IMG from './imgs/self.png'
 // Generate home page
 export const Home = () => {
     return (
-        <div className='home.body'>
+        <div>
             <h1>About Me</h1><br />
             <img src={self_IMG}
                 className='imgGrayscale'
