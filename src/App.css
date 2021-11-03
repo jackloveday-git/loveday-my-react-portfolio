@@ -99,6 +99,10 @@ body {
   top: 1px;
 }
 
+.labelText {
+  font-size: 35px;
+}
+
 .profile-container {
   margin: 20px 30px;
   padding: 20px;

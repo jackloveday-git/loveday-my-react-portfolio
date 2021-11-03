@@ -5,9 +5,6 @@
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 
-// Import Images for Projects
-import project0 from './imgs/projects/proj0.png'
-
 // Generate Portfolio page
 export const Portfolio = ({ category }) => {
     const [currentProject, setCurrentProject] = useState();
