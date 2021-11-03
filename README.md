@@ -4,7 +4,7 @@
   ![GitHub language count](https://img.shields.io/github/languages/count/jackloveday-git/loveday-my-react-portfolio)
   ![GitHub top language](https://img.shields.io/github/languages/top/jackloveday-git/loveday-my-react-portfolio)
   
-    Deployed Link: (https://loveday-react-portfolio.herokuapp.com/)
+  Deployed Link: (https://loveday-react-portfolio.herokuapp.com/)
 
   ## Description
   My personal portfolio, created with react.
