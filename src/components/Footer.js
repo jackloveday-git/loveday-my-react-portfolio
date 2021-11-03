@@ -5,12 +5,14 @@ import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// Pull a copyright icon
+import { faCopyright } from "@fortawesome/free-solid-svg-icons";
+
 // Pull the icons we want to use
 import {
     faInstagram,
     faGithub,
     faLinkedin,
-    faCopyright
 } from "@fortawesome/free-brands-svg-icons";
 
 // Footer function
@@ -19,14 +21,14 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-container">
                 <div className="item1">
-                    <PrivacyModal />
+                    JTL
                 </div>
 
                 <div className="item2">
                     <span style={{ paddingRight: 5 }}>Copyright </span>
                     <FontAwesomeIcon icon={faCopyright} />{" "}
                     <span style={{ paddingLeft: 5 }}>
-                        2021 Jack Loveday
+                        2021
                     </span>
                 </div>
                 <a
