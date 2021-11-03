@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.App-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -51,4 +57,5 @@ body {
   text-align: center;
   font-size: 3.5rem;
   margin-top: 10%;
+  min-height: 100%;
 }

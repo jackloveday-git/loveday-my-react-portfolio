@@ -3,6 +3,7 @@
 // Import dependencies
 import './App.css';
 import NavBar from "./components/NavBar";
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./components/pages/Home";
 import { Resume } from "./components/pages/Resume";
@@ -24,6 +25,8 @@ function App() {
             <Route path="/contact" component={Contact} />
           </Switch>
         </div>
+
+        <Footer />
       </Router>
     </>
   );
